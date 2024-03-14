@@ -41,7 +41,6 @@ class Game: #Classen einbauen wird einfacher zu erwitern
             """       
             self.img_pos[1] += (self.movement[1] - self.movement[0])*5 # boolen werden in int um gewandelt so dass di ekeiden knopf gedrukt wirden, es wird sich nix bewegen 
             self.screen.blit(self.img, self.img_pos) #
-           
             img_rect = pygame.Rect(self.img_pos[0], self.img_pos[1], self.img.get_width(), self.img.get_height()) # hier wird den Hitbox erstellt 
             if img_rect.colliderect(self.collision_area):
                 pygame.draw.rect(self.screen, (100,50,73), self.collision_area) # hier wird den hitbox auf den screen gezeichnet mit "(100,50,73)" diesem farbe 

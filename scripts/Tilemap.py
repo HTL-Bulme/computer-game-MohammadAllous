@@ -6,11 +6,14 @@ class Tilemap:
                         # so muss den abstnd zwischen den tiele nicht ausgefullt werden 
         self.offgrid_tiles = []
 
+
+        for width in range(30):
+            self.tilemap[f'{width};10'] = {'type': "grass", 'variant':1, 'pos':(width, 10)}
+            for height in range(10):
+                self.tilemap[f'{width}; {height + 11}'] = {'type': "grass", 'variant':5, 'pos':(width, 11 + height)}
         for i in range(15):
-            self.tilemap[str(4 + i ) + ';10'] = {'type': "grass", 'variant':1, 'pos':(4 + i, 10)}
-        for i in range(15):
-            self.tilemap['10;' + str(i + 5)] = {'type': "stone", 'variant':1, 'pos':(10, 5 + i)}
-        
+            #self.tilemap['10;' + str(i + 5)] = {'type': "stone", 'variant':1, 'pos':(10, 5 + i)}
+            pass
 
     
     def render(self, surf):
