@@ -1,0 +1,31 @@
+This is a short 2D platformer game project named ludo anni.
+
+The language used was python with the help of the python modules from Pygame and the compiler used was VisualStudioCode.
+It's a simple platformer with 3 Dirction Keys where the goal is to collect all 17 coins that are found in the one and only level.
+The game was made as our school project in our labratory subject.
+
++-------------------------------------------------------------------------------------------------------------+
+How to Run: 	The main file is called "game.py", be sure to execute this file via your perferred compiler, 
+		and be sure you have the latest python and pygame isntallation.
++-------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------+
+Controlls:	A or Left_Arrow_Key: Move Left
+		D or Right_Arrow_Key: Move Right
+		W or Space or Up_Arrow_Key: Jump
++-------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------+
+Features:	Free Player Tracking Cam
+		Downwards Volocity
+		Entity Collision
+		Pixel Based Sprites
+		Background Music and misc. sfx
+		Main Menu Screen
+		Object Oriented
++-------------------------------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------------+
+Authors:	Mohammad Alloush
+		Osman Cicekdag
++-------------------------------------------------------------------------------------------------------------+
